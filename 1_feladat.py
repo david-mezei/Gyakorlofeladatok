@@ -65,7 +65,7 @@ try:
 
     # legkisebb keresése
     smallest_num = min(more_than_4)
-    smallest_index = more_than_4.index(smallest_num) + 1
+    smallest_index = drawn_nums.index(smallest_num) + 1
 
     print(f"A legkisebb dobás a 4 után: {smallest_num}, melynek helye: {smallest_index}")
 except ValueError:
