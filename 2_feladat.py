@@ -34,6 +34,7 @@ try:
             break
         else: 
             print("Nem volt ilyen szám.")
+            break
 except ValueError:
     print("Nem volt ilyen szám.")
 
@@ -45,6 +46,7 @@ for num in chosen_nums:
         first_int = num
         first_int_index = chosen_nums.index(first_int) + 1
         print(f"Az első negatív egész szám indexe: {first_int_index}. ")
+        break
     else: 
         print("Nem volt ilyen szám.")
 
@@ -57,8 +59,10 @@ for num in chosen_nums:
     if 1.0 < num < 2.0:
         counter += 1
         print(f"Az adott intervallumban {counter} szám van.")
+        break
     else: 
         print("Nem volt ilyen szám.")
+        break
 
 
 # 4. feladat
